@@ -1,5 +1,6 @@
 ﻿import discord
 import asyncio
+import os
 from captcha.image import ImageCaptcha
 import random
 import re
@@ -1103,9 +1104,7 @@ async def on_message(message):
     
     
     
-    
-        
+access_token = os.environ[your_bot_token]
+client.run(access_token)
         
 
-
-client.run("NjgzMTYxMjgxMDA3NDUyMjU1.XmiIxQ.NAobQ_L-J7B581uSsnOZXbeitoc")
